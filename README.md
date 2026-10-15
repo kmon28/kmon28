@@ -8,6 +8,7 @@ I build hands-on security labs that turn telemetry into **validated findings, do
 ![Sysmon](https://img.shields.io/badge/Endpoint-Sysmon-2874A6?style=flat-square)
 ![Active Directory](https://img.shields.io/badge/Identity-Active_Directory-2874A6?style=flat-square)
 ![Wireshark](https://img.shields.io/badge/Network-Wireshark-1679A7?style=flat-square)
+![Kali Linux](https://img.shields.io/badge/Assessment-Kali_Linux-4B5563?style=flat-square)
 
 ## Featured Projects
 
@@ -35,6 +36,14 @@ Performed controlled reconnaissance and identity-security analysis in a VirtualB
 
 **[Project walkthrough](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab)** · [Investigation report](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/reports/IR-001-smb-authentication-and-hardening.md) · [Evidence screenshots](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/tree/main/screenshots) · [Study notes](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/docs/study-notes-and-interview-review.md)
 
+### [Kali Linux Security Assessment & Blue-Team Investigation](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab)
+
+**Kali Linux · Nmap · LDAP · SMB · Active Directory · Windows Event 4625**
+
+Performed controlled host discovery and domain-service enumeration, validated **required SMB signing**, inspected LDAP directory and privileged-group data, and correlated a failed SMB login with Windows Security Event **4625** from the Kali source IP. A later retest showed CLIENT01 TCP/445 **filtered**. The repository includes **10 original evidence screenshots**, a findings report, documented commands, and interview-ready refresher notes.
+
+**[Project overview](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab)** · [Assessment report](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/reports/assessment-findings.md) · [Command refresher](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/commands/command-reference.md)
+
 ## Technical Skills Demonstrated
 
 | Focus | Technologies and practical work |
@@ -53,6 +62,6 @@ I distinguish observed evidence from hypotheses, record limitations, and priorit
 
 ## Next Areas of Development
 
-**Linux security and automation · Network detection and incident response · Azure/Entra ID and cloud security**
+**Advanced Linux security and automation · Network detection and incident response · Azure/Entra ID and cloud security**
 
 *These are planned areas of development, not completed projects. All published investigations are controlled lab exercises, not production incidents.*
