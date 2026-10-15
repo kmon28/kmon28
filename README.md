@@ -27,14 +27,22 @@ Analyzed Active Directory network communications and investigated connectivity p
 
 **[Project overview](https://github.com/kmon28/Network-Traffic-Analysis-Lab)** · [10 evidence screenshots](https://github.com/kmon28/Network-Traffic-Analysis-Lab/tree/main/screenshots) · [ICMP PCAP](https://github.com/kmon28/Network-Traffic-Analysis-Lab/blob/main/pcaps/ICMP_Firewall_Investigation.pcapng)
 
+### [Kali Linux Security Assessment & Defensive Investigation Lab](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab)
+
+**Kali Linux · Nmap · LDAP · SMB · Active Directory · Windows Event 4625**
+
+Performed controlled reconnaissance and identity-security analysis in a VirtualBox AD lab. Verified **SMB signing required** on DC02, reviewed LDAP and privileged-group information, correlated a deliberate failed SMB authentication attempt with Windows Security Event **4625**, and documented a TCP/445 **filtered** retest after hardening.
+
+**[Project walkthrough](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab)** · [Investigation report](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/reports/IR-001-smb-authentication-and-hardening.md) · [Evidence screenshots](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/tree/main/screenshots) · [Study notes](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/docs/study-notes-and-interview-review.md)
+
 ## Technical Skills Demonstrated
 
 | Focus | Technologies and practical work |
 |---|---|
 | SIEM & endpoint telemetry | Splunk Enterprise, SPL, Sysmon, Windows Security Events |
 | Detection & investigation | Threat hunting, alert analysis, incident documentation, MITRE ATT&CK |
-| Identity & Windows security | Active Directory, Kerberos, LDAP, DNS, Group Policy |
-| Network analysis | Wireshark, TCP/IP, ICMP, SMB2, TCP retransmissions, packet capture |
+| Identity & Windows security | Active Directory, Kerberos, LDAP, DNS, Group Policy, Windows Event 4625 |
+| Network analysis | Wireshark, Nmap, TCP/IP, ICMP, SMB2, TCP retransmissions, packet capture |
 | Lab infrastructure | Windows Server 2022, Windows 10, VirtualBox, Windows Firewall |
 
 ## How I Work
