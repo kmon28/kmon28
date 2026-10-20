@@ -32,9 +32,11 @@ Analyzed Active Directory network communications and investigated connectivity p
 
 **Kali Linux · Nmap · LDAP · SMB · Active Directory · Windows Event 4625**
 
-Performed controlled host discovery and domain-service enumeration, validated **required SMB signing**, inspected LDAP directory and privileged-group data, and correlated a failed SMB login with Windows Security Event **4625** from the Kali source IP. A later retest showed CLIENT01 TCP/445 **filtered**. The repository includes **10 original evidence screenshots**, a findings report, documented commands, and interview-ready refresher notes.
+Performed controlled host discovery and domain-service enumeration, validated **required SMB signing**, inspected LDAP directory and privileged-group data, and correlated a failed SMB login with Windows Security Event **4625** from the Kali source IP. A later retest showed CLIENT01 TCP/445 **filtered**. The repository now also documents Kerberos RC4-to-AES-256 hardening and a Wireshark SMB2/NTLMSSP authentication investigation, with detection guidance and interview-ready notes.
 
 **[Project overview](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab)** · [Assessment report](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/reports/assessment-findings.md) · [Command refresher](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/commands/command-reference.md)
+
+**[Featured: IR-004 Wireshark SMB/NTLM Investigation](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/reports/IR-004-SMB-NTLM-Network-Forensics.md)** · [IR-002 Kerberos Hardening](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/reports/IR-002-kerberos-rc4-aes256-hardening.md)
 
 ## Technical Skills Demonstrated
 
