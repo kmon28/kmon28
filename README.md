@@ -16,7 +16,7 @@ I build hands-on security labs that turn telemetry into **validated findings, do
 
 **Splunk Enterprise · Sysmon · Windows Server 2022 · Active Directory · SPL · MITRE ATT&CK**
 
-Built an isolated Windows security monitoring environment to investigate endpoint and authentication events, develop detections, examine suspicious behavior, and document findings. Includes evidence-backed incident reporting, detection documentation, ATT&CK mapping, and native PowerShell investigation when the Splunk trial is unavailable. Recent work covers reusable failed-logon analysis (IR-006), SMB network-logon attribution (IR-007), and recovery of Kerberos service-ticket auditing through Group Policy.
+Built an isolated Windows security monitoring environment to investigate endpoint and authentication events, develop detections, examine suspicious behavior, and document findings. Includes evidence-backed incident reporting, detection documentation, ATT&CK mapping, and native PowerShell investigation when the Splunk trial is unavailable. Recent work covers reusable failed-logon analysis (IR-006), SMB network-logon attribution (IR-007), Kerberos auditing recovery, and PowerShell account-discovery detection with benign-control validation (IR-011).
 
 **[Project overview](https://github.com/kmon28/Windows-SOC-Detection-Lab)** · [Incident report](https://github.com/kmon28/Windows-SOC-Detection-Lab/blob/main/incident-reports/IR-001-encoded-powershell.md) · [Detection catalog](https://github.com/kmon28/Windows-SOC-Detection-Lab/blob/main/docs/detection-catalog.md) · [IR-006: PowerShell failed-logon detection](https://github.com/kmon28/Windows-SOC-Detection-Lab/blob/main/incident-reports/IR-006-failed-logon-script.md) · [IR-007: SMB and Kerberos audit recovery](https://github.com/kmon28/Windows-SOC-Detection-Lab/blob/main/incident-reports/IR-007-smb-kerberos-audit-recovery.md)
 
@@ -32,9 +32,11 @@ Analyzed Active Directory network communications and investigated connectivity p
 
 **Kali Linux · Nmap · LDAP · SMB · Active Directory · Windows Event 4625**
 
-Performed controlled host discovery and domain-service enumeration, validated **required SMB signing**, inspected LDAP directory and privileged-group data, and correlated a failed SMB login with Windows Security Event **4625** from the Kali source IP. A later retest showed CLIENT01 TCP/445 **filtered**. The repository now also documents Kerberos RC4-to-AES-256 hardening and a Wireshark SMB2/NTLMSSP authentication investigation, with detection guidance and interview-ready notes.
+Performed controlled host discovery and domain-service enumeration, validated **required SMB signing**, inspected LDAP directory and privileged-group data, and correlated a failed SMB login with Windows Security Event **4625** from the Kali source IP. A later retest showed CLIENT01 TCP/445 **filtered**. The repository also documents Kerberos RC4-to-AES-256 hardening, Wireshark SMB2/NTLMSSP authentication forensics, scheduled-task persistence investigation (IR-010), PowerShell account-discovery detection (IR-011), and controlled SSH authentication-log detection in Python (IR-012), with evidence and interview-ready notes.
 
 **[Project overview](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab)** · [Assessment report](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/reports/assessment-findings.md) · [Command refresher](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/commands/command-reference.md)
+
+**[IR-012: SSH Authentication Detection](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/reports/IR-012-SSH-Authentication-Detection.md)** · [IR-011: Account Discovery Detection](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/reports/IR-011-PowerShell-Account-Discovery-Detection.md) · [Screenshot evidence](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/tree/main/screenshots)
 
 **[Featured: IR-004 Wireshark SMB/NTLM Investigation](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/reports/IR-004-SMB-NTLM-Network-Forensics.md)** · [IR-002 Kerberos Hardening](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/reports/IR-002-kerberos-rc4-aes256-hardening.md)
 
@@ -45,6 +47,7 @@ Performed controlled host discovery and domain-service enumeration, validated **
 | SIEM & endpoint telemetry | Splunk Enterprise, SPL, Sysmon, Windows Security Events |
 | Detection & investigation | Threat hunting, alert analysis, incident documentation, MITRE ATT&CK, PowerShell `Get-WinEvent`, Event IDs 4624/4625/4769 |
 | Identity & Windows security | Active Directory, Kerberos, LDAP, DNS, Group Policy, Windows Event IDs 4624/4625/4769, advanced audit policy |
+| Linux security & Python | Kali Linux, systemd investigation, SSH authentication-log detection, Python regex parsing and positive/negative tests |
 | Network analysis | Wireshark, Nmap, TCP/IP, ICMP, SMB2, TCP retransmissions, packet capture |
 | Lab infrastructure | Windows Server 2022, Windows 10, VirtualBox, Windows Firewall |
 
