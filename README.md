@@ -32,9 +32,11 @@ Analyzed Active Directory network communications and investigated connectivity p
 
 **Kali Linux · Nmap · LDAP · SMB · Active Directory · Windows Event 4625**
 
-Performed controlled host discovery and domain-service enumeration, validated **required SMB signing**, inspected LDAP directory and privileged-group data, and correlated a failed SMB login with Windows Security Event **4625** from the Kali source IP. A later retest showed CLIENT01 TCP/445 **filtered**. The repository also documents Kerberos RC4-to-AES-256 hardening, Wireshark SMB2/NTLMSSP authentication forensics, scheduled-task persistence investigation (IR-010), PowerShell account-discovery detection (IR-011), and controlled SSH authentication-log detection in Python (IR-012), with evidence and interview-ready notes.
+Performed controlled host discovery and domain-service enumeration, validated **required SMB signing**, inspected LDAP directory and privileged-group data, and correlated a failed SMB login with Windows Security Event **4625** from the Kali source IP. A later retest showed CLIENT01 TCP/445 **filtered**. The repository also documents Kerberos RC4-to-AES-256 hardening, Wireshark SMB2/NTLMSSP authentication forensics, scheduled-task persistence investigation (IR-010), PowerShell account-discovery detection (IR-011), and controlled SSH authentication-log detection in Python (IR-012), and simulated Linux systemd persistence detection and containment (IR-013), with evidence and interview-ready notes.
 
 **[Project overview](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab)** · [Assessment report](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/reports/assessment-findings.md) · [Command refresher](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/commands/command-reference.md)
+
+**[IR-013: Linux Systemd Persistence Detection & Response](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab#ir-013--linux-systemd-persistence-detection-and-response)** · [IR-013 evidence screenshots](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/tree/main/screenshots)
 
 **[IR-012: SSH Authentication Detection](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/reports/IR-012-SSH-Authentication-Detection.md)** · [IR-011: Account Discovery Detection](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/reports/IR-011-PowerShell-Account-Discovery-Detection.md) · [Screenshot evidence](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/tree/main/screenshots)
 
