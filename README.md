@@ -36,7 +36,7 @@ Performed controlled host discovery and domain-service enumeration, validated **
 
 **[Project overview](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab)** · [Assessment report](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/reports/assessment-findings.md) · [Command refresher](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/commands/command-reference.md)
 
-**[IR-013: Linux Systemd Persistence Detection & Response](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab#ir-013--linux-systemd-persistence-detection-and-response)** · [IR-013 evidence screenshots](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/tree/main/screenshots)
+**[IR-013: Linux Systemd Persistence Detection & Response](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/reports/IR-013-Linux-Systemd-Persistence-Investigation.md)** · [IR-013 evidence screenshots](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/tree/main/screenshots)
 
 **[IR-012: SSH Authentication Detection](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/reports/IR-012-SSH-Authentication-Detection.md)** · [IR-011: Account Discovery Detection](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/reports/IR-011-PowerShell-Account-Discovery-Detection.md) · [Screenshot evidence](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/tree/main/screenshots)
 
