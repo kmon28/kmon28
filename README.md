@@ -1,5 +1,7 @@
 # Security Engineering Portfolio
 
+**Quality and design standard:** [LEVEL UP portfolio standard](PORTFOLIO-STANDARD.md) — evidence-first SOC writing, reproducible detection engineering, and the 95+ verified quality target.
+
 > **LEVEL UP portfolio standard:** [SOC // FIELD NOTES — evidence, writing, design and 95+ quality rubric](PORTFOLIO-STANDARD.md). The score is an aspirational internal target, not an external evaluation.\n\n
 **SOC Operations · Detection Engineering · Windows / Active Directory · Network Security**
 
