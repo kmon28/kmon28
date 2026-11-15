@@ -21,6 +21,16 @@ I build hands-on security labs that turn telemetry into **validated findings, do
 
 **Portfolio scope:** These are authorized, controlled labs. They demonstrate practical analysis and engineering skills, not employment in a production SOC or an actual unauthorized compromise. Splunk work is historical because the trial has expired; current investigations use Windows logs, PowerShell, and Linux tooling.
 
+## Analyst review shortcuts
+
+For a fast technical assessment, each project includes a short guide that links observed evidence to analyst questions and limitations:
+
+- [Windows SOC triage guide](https://github.com/kmon28/Windows-SOC-Detection-Lab/blob/main/docs/analyst-triage-quick-reference.md)
+- [Network packet triage guide](https://github.com/kmon28/Network-Traffic-Analysis-Lab/blob/main/docs/packet-triage-quick-reference.md)
+- [Linux and identity incident review guide](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/docs/incident-review-quick-reference.md)
+
+These guides complement the original incident reports and do not replace the captured evidence or imply that reconstructed code was retested.
+
 ## Featured Projects
 
 ### [Windows SOC Detection & Threat Hunting Lab](https://github.com/kmon28/Windows-SOC-Detection-Lab)
