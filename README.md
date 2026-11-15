@@ -10,6 +10,16 @@ I build hands-on security labs that turn telemetry into **validated findings, do
 ![Wireshark](https://img.shields.io/badge/Network-Wireshark-1679A7?style=flat-square)
 ![Kali Linux](https://img.shields.io/badge/Assessment-Kali_Linux-4B5563?style=flat-square)
 
+## Start Here — Three Evidence-Backed Security Projects
+
+| Project | What I investigated | Evidence / technical work |
+| --- | --- | --- |
+| [Windows SOC Detection](https://github.com/kmon28/Windows-SOC-Detection-Lab) | Windows authentication, Sysmon process events, Active Directory monitoring and detection rules | [Incident reports](https://github.com/kmon28/Windows-SOC-Detection-Lab/tree/main/incident-reports) · [Detection catalog](https://github.com/kmon28/Windows-SOC-Detection-Lab/blob/main/docs/detection-catalog.md) |
+| [Network Traffic Analysis](https://github.com/kmon28/Network-Traffic-Analysis-Lab) | ICMP firewall troubleshooting, DNS/AD discovery, TCP retransmissions and packet-capture visibility | [Wireshark evidence](https://github.com/kmon28/Network-Traffic-Analysis-Lab/tree/main/screenshots) · [ICMP capture](https://github.com/kmon28/Network-Traffic-Analysis-Lab/blob/main/pcaps/ICMP_Firewall_Investigation.pcapng) |
+| [Kali / Linux Security Assessment](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab) | SMB/NTLM and Kerberos investigation, Linux persistence and network detection, defensive verification | [IR-015 illustrated report](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/blob/main/reports/IR-015-Linux-User-Systemd-Persistence-Investigation.md) · [IR-015 detector source](https://github.com/kmon28/Kali-Linux-Security-Assessment-Lab/tree/main/scripts/IR-015) |
+
+**Portfolio scope:** These are authorized, controlled labs. They demonstrate practical analysis and engineering skills, not employment in a production SOC or an actual unauthorized compromise. Splunk work is historical because the trial has expired; current investigations use Windows logs, PowerShell, and Linux tooling.
+
 ## Featured Projects
 
 ### [Windows SOC Detection & Threat Hunting Lab](https://github.com/kmon28/Windows-SOC-Detection-Lab)
