@@ -3,7 +3,7 @@
 
 **SOC Operations · Detection Engineering · Windows / Active Directory · Network Security**
 
-I build hands-on security labs that turn telemetry into **validated findings, documented investigations, and practical remediation**. My work spans Splunk/Sysmon monitoring, Windows identity security, and packet-level network analysis.
+I build hands-on security labs that turn telemetry into **validated findings, documented investigations, and practical remediation**. My work spans Windows/Sysmon telemetry, identity security, packet-level analysis, and Linux persistence detection. Historical Splunk investigations are preserved alongside current PowerShell and Linux workflows.
 
 ![Splunk](https://img.shields.io/badge/SIEM-Splunk-4B5563?style=flat-square)
 ![Sysmon](https://img.shields.io/badge/Endpoint-Sysmon-2874A6?style=flat-square)
